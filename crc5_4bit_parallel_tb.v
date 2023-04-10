@@ -1,5 +1,5 @@
 `timescale  1ns/1ps
-module crc_tb;
+module  crc_tb;
 reg [7:0] data_in;
 reg crc_en,rst,clk;
 wire [3:0]crc_out;
