@@ -1,4 +1,4 @@
-module crc(
+module  crc(
   input [7:0] data_in,
   input crc_en,
   output [3:0] crc_out,
