@@ -23,5 +23,5 @@ We make two matrices one when Nin=0 and one when Min=0 using one hot encoding ru
 We xor all the participants in the two matrices corrseponding to ith bit of Mout
 this is an example for N=4 and M=5 with polynomial X^5 + X^2 + X^1
 ![image](https://user-images.githubusercontent.com/64193247/230852314-64078e2c-8f9c-4ca4-add7-8364293a4df6.png)
-![image](https://user-images.githubusercontent.com/64193247/230852413-174ccad8-30a6-4a57-b1d5-676759d49d27.png)
+![image](https://user-images.githubusercontent.com/64193247/230854051-f3704643-aeb5-409e-9f6f-dd1ef0328dbf.png)
 
