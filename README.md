@@ -18,7 +18,8 @@ In the below example, remainder is generated after we exhaust all the input bits
 
 ![image](https://user-images.githubusercontent.com/64193247/230792420-66ac6fa2-7d72-4b0d-b898-31097a4d1226.png)
 
-For the paralle CRC, The next lfsr state(Mout) is a function of present lfsr state(Min) and present input(Nin). 
+For the paralle CRC we use the equation X^4+X^3+x^2+1(4 bit crc) with 8 bit data input.
+The next lfsr state(Mout) is a function of present lfsr state(Min) and present input(Nin). 
 We make two matrices one when Nin=0 and one when Min=0 using one hot encoding rule.
 We xor all the participants in the two matrices corrseponding to ith bit of Mout
 this is an example for N=4 and M=5 with polynomial X^5 + X^2 + X^1
